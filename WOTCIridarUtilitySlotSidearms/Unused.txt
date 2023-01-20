@@ -1,0 +1,68 @@
+
+
+; ==================================================================================================================================
+
+; Используйте этот конфиг чтобы разрешить определённым классам экипировать определённые категории доп. оружия в слоты для вспом. предметов.
+; Этот конфиг можно поместить в любой файл XComClassData.ini, тут уж как вам удобнее.
+; Список распространенных категорий доп. оружия ниже.
+
+; Use this config to allow specific soldier classes to use specific secondary weapon categories in their utility slots.
+; You can also put this configuration in any XComClassData.ini, whichever is more convenient for you.
+; Common secondary weapon categories:
+
+;	=== XCOM 2 ===
+
+;	pistol
+;	sword
+;	grenade_launcher
+;	psiamp
+;	gremlin
+
+;	=== War of the Chosen ===
+
+;	claymore
+;	wristblade - skirmisher ripjack
+;	gauntlet - templar gauntlets
+;	sidearm - autopistol
+
+;	=== Shen's Last Gift ===
+
+;	sparkbit
+
+;	=== WOTC LW2 Secondary Weapons mod ===
+
+;	arcthrower
+;	combatknife
+;	lw_gauntlet
+;	holotargeter
+;	SawedOffShotgun
+
+;	=== WOTC Ballistic Shields mod by Claus and Musashi ===
+;	shield
+
+; ==========================================================================================================
+;									PUT YOUR CONFIG BELOW - ВАШ КОНФИГ НИЖЕ
+;
+; (удалите точку с запятой ; в начале строки чтобы конфиг работал)
+; (remove semicolons ; at the start of config lines to make them work)
+
+;[Ranger X2SoldierClassTemplate]
+;+AllowedWeapons = (SlotType = eInvSlot_Utility, WeaponType = "pistol")
+
+;[Sharpshooter X2SoldierClassTemplate]
+;+AllowedWeapons = (SlotType = eInvSlot_Utility, WeaponType = "sword")
+
+;[PsiOperative X2SoldierClassTemplate]
+;+AllowedWeapons = (SlotType = eInvSlot_Utility, WeaponType = "gauntlet")
+
+;[Templar X2SoldierClassTemplate]
+;+AllowedWeapons = (SlotType = eInvSlot_Utility, WeaponType = "psiamp")
+
+;[Rookie X2SoldierClassTemplate]
+;[Ranger X2SoldierClassTemplate]
+;[Sharpshooter X2SoldierClassTemplate]
+;[Grenadier X2SoldierClassTemplate]
+;[Specialist X2SoldierClassTemplate]
+;[Skirmisher X2SoldierClassTemplate]
+;[Reaper X2SoldierClassTemplate]
+;[Spark X2SoldierClassTemplate]

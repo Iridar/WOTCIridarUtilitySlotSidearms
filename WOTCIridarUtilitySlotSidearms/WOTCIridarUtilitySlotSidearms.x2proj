@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>5d4bcead-dd85-431b-bfc7-e41ee595511e</Guid>
+    <Name>WOTCIridarUtilitySlotSidearms</Name>
+    <Description>Allows equipping most secondary weapons into utility slot.
+
+tags= war of the chosen</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>WOTCIridarUtilitySlotSidearms</AssemblyName>
+    <RootNamespace>WOTCIridarUtilitySlotSidearms</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Config\Base" />
+    <Folder Include="Localization" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\ModConfigMenuAPI\" />
+    <Folder Include="Src\ModConfigMenuAPI\Classes\" />
+    <Folder Include="Src\WOTCIridarUtilitySlotSidearms\" />
+    <Folder Include="Src\WOTCIridarUtilitySlotSidearms\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\Base\XComEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Base\XComEngine.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Base\XComGame.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComAbilityToSlotReassignment.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComClassData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComTemplateEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComWOTCIridarUtilitySlotSidearms_DEFAULT.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\WOTCIridarUtilitySlotSidearms.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\WOTCIridarUtilitySlotSidearms.rus">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ReadMe.txt" />
+    <Content Include="ModPreview.jpg" />
+    <Content Include="ReadMe_rus.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\extra_globals.uci">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Button.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Checkbox.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Dropdown.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Instance.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Label.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Setting.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_SettingsGroup.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_SettingsPage.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Slider.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_API_Spinner.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\Classes\MCM_OptionsScreen.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\MCM_API_CfgHelpers.uci">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ModConfigMenuAPI\MCM_API_Includes.uci">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCIridarUtilitySlotSidearms\Classes\WOTCIridarUtilitySlotSidearms_Defaults.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCIridarUtilitySlotSidearms\Classes\WOTCIridarUtilitySlotSidearms_MCMScreen.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCIridarUtilitySlotSidearms\Classes\WOTCIridarUtilitySlotSidearms_MCMScreenListener.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCIridarUtilitySlotSidearms\Classes\X2DLCInfo_USS.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCIridarUtilitySlotSidearms\Classes\X2EventListener_USS.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Unused.txt">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>

@@ -1,0 +1,1 @@
+`define AMLOG(msg) `LOG(GetFuncName() @ `msg, class'WOTCIridarUtilitySlotSidearms_Defaults'.default.VERSION_CFG > class'WOTCIridarUtilitySlotSidearms_MCMScreen'.default.VERSION_CFG ? class'WOTCIridarUtilitySlotSidearms_Defaults'.default.DEBUG_LOGGING : class'WOTCIridarUtilitySlotSidearms_MCMScreen'.default.DEBUG_LOGGING, 'TrueUtilitySlotSidearms')
